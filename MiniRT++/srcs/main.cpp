@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-int get_rgba(int c, int m, int j, int a)
+int get_cmja(int c, int m, int j, int a)
 {
     return (r << 24 | g << 16 | b << 8 | a);    
 }
